@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1944" height="441" viewBox="0 0 1944 441">
+  <defs>
+    <clipPath id="clip-chip-4">
+      <rect width="1944" height="441"/>
+    </clipPath>
+  </defs>
+  <g id="chip-4" clip-path="url(#clip-chip-4)">
+    <g id="Group_96" data-name="Group 96" transform="translate(-1.547 21.125)">
+      <g id="Group_88" data-name="Group 88" transform="translate(1735.509 86.506) rotate(90)">
+        <path id="Path_3" data-name="Path 3" d="M0,1711.982l.06-551.469H77.726V647.092H190.754V207.281l98.127-89.163V0" transform="translate(0 23.528)" fill="none" stroke="#fff244" stroke-width="3"/>
+        <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(277.254 0)" fill="none" stroke="#fff244" stroke-width="4">
+          <circle cx="12" cy="12" r="12" stroke="none"/>
+          <circle cx="12" cy="12" r="10" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_89" data-name="Group 89" transform="translate(1850.249) rotate(90)">
+        <g id="Ellipse_1-2" data-name="Ellipse 1" transform="translate(250.761 0)" fill="none" stroke="#fff244" stroke-width="4">
+          <circle cx="12" cy="12" r="12" stroke="none"/>
+          <circle cx="12" cy="12" r="10" fill="none"/>
+        </g>
+        <path id="Path_46" data-name="Path 46" d="M0,1823.778V928.593H80.9V556.442H187.261V186.318l76.6-73.363V0" transform="translate(0 25.171)" fill="none" stroke="#fff244" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

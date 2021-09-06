@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="47" viewBox="0 0 63 47">
+  <defs>
+    <clipPath id="clip-software">
+      <rect width="63" height="47"/>
+    </clipPath>
+  </defs>
+  <g id="software" clip-path="url(#clip-software)">
+    <g id="Group_46" data-name="Group 46" transform="translate(1 1)">
+      <path id="Path_41" data-name="Path 41" d="M61.991,33.393,56.105,9.681A3.749,3.749,0,0,0,52.506,7H11.491A3.749,3.749,0,0,0,7.874,9.756L2.006,33.393a1.875,1.875,0,0,0,0,.45v14.4a3.749,3.749,0,0,0,3.749,3.749H58.242a3.749,3.749,0,0,0,3.749-3.749V33.825A1.875,1.875,0,0,0,61.991,33.393ZM5.755,48.24V34.068l5.736-23.319h41l5.755,23.319V48.24Z" transform="translate(-1.993 -7)" fill="#9e9e9e"/>
+      <path id="Path_42" data-name="Path 42" d="M6,20H50.989v3.749H6Z" transform="translate(1.512 4.369)" fill="#9e9e9e"/>
+      <path id="Path_43" data-name="Path 43" d="M26,24h7.5v3.749H26Z" transform="translate(19.003 7.867)" fill="#9e9e9e"/>
+    </g>
+  </g>
+</svg>

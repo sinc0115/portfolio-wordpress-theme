@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1944" height="499" viewBox="0 0 1944 499">
+  <defs>
+    <clipPath id="clip-chip-2">
+      <rect width="1944" height="499"/>
+    </clipPath>
+  </defs>
+  <g id="chip-2" clip-path="url(#clip-chip-2)">
+    <g id="Group_95" data-name="Group 95" transform="translate(0 -179)">
+      <g id="Group_49" data-name="Group 49" transform="translate(817.897 272.625) rotate(-90)">
+        <path id="Path_3" data-name="Path 3" d="M-252.07-818.484l.371,514.406h41.177V175.768H0v526.97L76.6,776.1V889.057" transform="translate(0 0)" fill="none" stroke="#fff244" stroke-width="3"/>
+        <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(63.5 890.228)" fill="none" stroke="#fff244" stroke-width="4">
+          <circle cx="12" cy="12" r="12" stroke="none"/>
+          <circle cx="12" cy="12" r="10" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_50" data-name="Group 50" transform="translate(867.897 362.625) rotate(-90)">
+        <path id="Path_3-2" data-name="Path 3" d="M-210.522-862.611V242.983H0V702.738L76.6,776.1V889.057" transform="translate(0 0)" fill="none" stroke="#fff244" stroke-width="3"/>
+        <g id="Ellipse_1-2" data-name="Ellipse 1" transform="translate(63.5 890.228)" fill="none" stroke="#fff244" stroke-width="4">
+          <circle cx="12" cy="12" r="12" stroke="none"/>
+          <circle cx="12" cy="12" r="10" fill="none"/>
+        </g>
+        <path id="Path_46" data-name="Path 46" d="M-210.668-870.468l.145,357.859V242.983H0V702.738L76.6,776.1V889.057" fill="none" stroke="#fff244" stroke-width="3"/>
+      </g>
+      <g id="Group_51" data-name="Group 51" transform="translate(967.897 432.625) rotate(-90)">
+        <path id="Path_3-3" data-name="Path 3" d="M-210.588,977.438l.066-519.452h105.956V320.043H0v382.7L76.6,776.1V889.057" transform="translate(0 0)" fill="none" stroke="#fff244" stroke-width="3"/>
+        <g id="Ellipse_1-3" data-name="Ellipse 1" transform="translate(63.5 890.228)" fill="none" stroke="#fff244" stroke-width="4">
+          <circle cx="12" cy="12" r="12" stroke="none"/>
+          <circle cx="12" cy="12" r="10" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

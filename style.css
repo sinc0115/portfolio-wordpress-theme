@@ -1,0 +1,538 @@
+/*
+ Theme Name:   Tommy Portfolio
+ Theme URI:    https://en-ca.wordpress.org/
+ Description:  Theme for Engineering Portfolio
+ Author:       Katherine Sinclair
+ Author URI:   http://katherinesinclair.ca
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  tommyportfolio
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* ****************************
+    CSS RESET
+**************************** */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ************************
+    GENERAL PAGE
+************************ */
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: #424242;
+}
+
+.container {
+    min-height: 100%;
+    background-color: #424242;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: normal;
+    color: white;
+    width: 100vw;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    line-height: normal;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+a {
+    color: #FFF244;
+}
+
+.chip-img {
+    width: 100vw;
+}
+
+
+/* ************************
+    NAV
+************************ */
+nav {
+    background-color: #2A2A2A; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    float: left;
+}
+
+/* HOVER */
+nav ul li:hover {
+    background-color: pink;
+}
+
+/* ACTIVE */
+nav ul li:active {
+    background-color: pink;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.nav-icon {
+    display: none;
+}
+
+
+/* ***************************
+    HEADING
+*************************** */
+#heading {
+    position: relative;
+    padding-top: 8vw;
+}
+
+.heading-text {
+    width: 50vw;
+    padding-left: 10vw;
+    position: absolute;
+}
+
+#heading img {
+    position: relative;
+    margin-top: 25vw;
+}
+
+
+/* ***************************
+    ABOUT
+*************************** */
+.about {
+    width: 90vw;
+    margin: 0 auto 40px auto;
+}
+
+.about-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "intro portrait""education education";
+}
+
+.about-intro-details {
+    grid-area: intro;
+}
+
+.about-intro-portrait {
+    grid-area: portrait;
+    width: 35vw;
+    justify-self: center;
+}
+
+.education {
+    grid-area: education;
+    margin-bottom: 60px;
+}
+
+
+/* ****************
+    EDUCATION
+**************** */
+.education .about-card {
+    width: 70vw;
+}
+
+.education h3 {
+    margin-bottom: 20px;
+}
+
+
+/* ****************
+    ABOUT CARDS
+**************** */
+.skills {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.about-card {
+    background-color: #2A2A2A;
+    padding: 20px;
+    box-shadow: 0 0 10px #2A2A2A;
+    width: 75vw; 
+    margin: 20px;
+    max-width: 600px;
+    display: inline-block;
+    page-break-inside: avoid;
+}
+
+.about-card-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.about-card-heading img {
+    width: 50px;
+}
+
+.about-card-heading h4 {
+    margin-left: 20px;
+}
+
+/* TAGS */
+.about-cards-tags {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.about-card-tags span {
+    display: inline-block;
+    background-color: #323232;
+    box-shadow: 0 0 10px #2A2A2A;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+
+/* ***************************
+    PROJECTS
+*************************** */
+.projects {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.projects-card-grid {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.projects-card {
+    width: 85vw;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    background-color: #2A2A2A;
+    box-shadow: 0 0 10px #2A2A2A;
+    page-break-inside: avoid;
+}
+
+.projects-card-img img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    filter: brightness(60%) grayscale(30%);
+    /* transition: 0.3s ease-in-out; */
+}
+
+/* .projects-card-img img:hover {
+    filter: brightness(100%) grayscale(0%);
+    transition: 0.3s ease-in-out;
+} */
+
+.projects-card-body {
+    padding: 30px;
+}
+
+.projects-card-body h4 {
+    margin-bottom: 20px;
+}
+
+.projects-card-body h5 {
+    margin-bottom: 5px;
+}
+
+.projects-card-what, 
+.projects-card-how {
+    margin-bottom: 15px;
+}
+
+.projects-card-what p, 
+.projects-card-view-more a {
+    margin-left: 10px;
+}
+
+/* VIEW MORE */
+.projects-card-view-more {
+    border-top: 3px solid #323232;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+button {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF244;
+    border: 2px solid #FFF244;
+    padding: 10px 25px;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #FFF244;
+    color: #2A2A2A;
+    cursor: pointer;
+}
+
+.projects-card-social-links {
+    float: right;
+}
+
+.projects-cards-social {
+    width: 60px;
+}
+
+/* ***************************
+    PROJECTS PAGE
+*************************** */
+.projects-page-header {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.projects-content {
+    max-width: 90vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.projects-content img {
+    max-width: 90vw;
+    height: auto; 
+    margin-bottom: 20px;
+}
+
+
+
+/* ***************************
+    CONTACT
+*************************** */
+.contact {
+    width: 90vw;
+    margin: 10px auto 30px auto;
+}
+
+.contact-social {
+    margin-top: 30px;
+}
+
+.contact-social-icon {
+    width: 60px;
+    margin-right: 20px;
+}
+
+
+/* ***************************
+    MEDIA QUERIES
+*************************** */
+
+/* ****************
+    600px
+******************/
+
+@media screen and (min-width: 600px) {
+
+    /* HEADING */
+    #heading img {
+        margin-top: 10vw;
+    }
+
+    /* PROJECTS */
+    .projects-card {
+        width: 75vw; 
+    }
+
+}
+
+
+/* ****************
+    750px
+******************/
+
+@media screen and (min-width: 750px) {
+
+    /* GENERAL */
+    h1 {
+        font-size: 65px;
+    }
+
+    h2 {
+        font-size: 45px
+    }
+
+    /* h3 {
+        font-size: 35px
+    }
+
+    h4 {
+        font-size: 30px
+    }
+
+    h5 {
+        font-size: 22px
+    } */
+
+    p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+
+    /* ABOUT */
+    .about-card-grid {
+        columns: 35vw 2;
+    }
+
+    .about-card {
+        width: 35vw;
+    }
+
+    /* PROJECTS */
+    .projects-card-grid {
+        columns: 40vw 2;
+    }
+
+    .projects-card {
+        width: 40vw; 
+    }
+}
+
+
+/* ****************
+    900px
+******************/
+@media screen and (min-width: 900px) {
+
+    /* GENERAL */
+    h1 {
+        font-size: 95px;
+    }
+
+    /* HEADING */
+    .heading-text {
+        width: 40vw;
+        padding-left: 5vw;
+    }
+    
+    #heading img {
+        margin-top: 5vw;
+    }
+
+    /* ABOUT */
+    .about-intro {
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "intro portrait""education portrait";
+    }
+
+    .about-intro-portrait {
+        width: 25vw;
+    }
+
+    .education {
+        width: 40vw;
+        margin-top: 50px;
+    }
+
+    /* PROJECTS */
+    .projects-card-img img {
+        height: 300px;
+    }
+
+}
+
+/* ****************
+    1300px
+******************/
+@media screen and (min-width: 1300px) {
+
+    /* HEADING */
+    #heading img {
+        margin-top: 0;
+    }
+}
