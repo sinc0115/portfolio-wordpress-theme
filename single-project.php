@@ -5,9 +5,9 @@
 
 <?php get_header(); ?>
 
-<img src="<?php echo get_bloginfo('template_url') ?>/assets/chip-4.svg" class="chip-img">
-
     <div class="projects-page-header">
+
+        <img src="<?php echo get_bloginfo('template_url') ?>/assets/chip-4.svg" class="chip-img">
 
         <h1><?php the_title(); ?></h1>
 

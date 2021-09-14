@@ -7,7 +7,7 @@
         <div class="about-intro-details">
             <h2>About</h2>
                 <p>Hi, I'm Thomas Sinclair. I am an Electrical Engineer, specializing in Systems.</p>
-                <p>I do cool things with code and science. In my free time I make headphones, video games, and metal detect.</p>
+                <p>I do cool things with code and science. In my free time I make headphones, video games, and play golf.</p>
         </div>
         <!-- END OF INTRO DETAILS -->
 
@@ -24,7 +24,7 @@
                     </div>
                     <div class="about-card-body">
                         <p>Specialization in Systems</p>
-                        <p><b>Selected coursework:</b> Modern Control Engineering, Integrated Control Systems, Computer Control in Robotics, Optoelectronics and Optical Components</p>
+                        <p><b>Selected coursework:</b> Fundamentals of Semiconductor Devices, Principles and Applications of VLSI design, Electronics I, II & III</p>
                     </div>
                 </div>
         </div>

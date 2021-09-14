@@ -49,9 +49,10 @@
                 <div class="projects-card-view-more">
                     <button onclick="location.href='<?php the_permalink() ?>'" type="button">See More</button>
 
-                    <!--<div class="projects-card-social-links">-->
-                    <!--    <a href="" target="_blank"><img class="projects-cards-social" src="<?php echo get_bloginfo('template_url') ?>/assets/github.svg"></a>-->
-                    <!--</div>-->
+                    <?php  ?>
+                    <div class="projects-card-social-links">
+                        <a href="" target="_blank"><img class="projects-cards-social" src="<?php echo get_bloginfo('template_url') ?>/assets/github.svg"></a>
+                    </div>
                 </div>
                 <!-- END OF VIEW MORE -->
 

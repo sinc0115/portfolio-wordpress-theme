@@ -372,8 +372,14 @@ button:hover {
     PROJECTS PAGE
 *************************** */
 .projects-page-header {
-    width: 90vw;
-    margin: 0 auto;
+    position: relative;
+    margin-bottom: 10vw;
+}
+
+.projects-page-header h1 {
+    position: absolute;
+    left: 10vw;
+    top: 20vw;
 }
 
 .projects-content {
@@ -385,7 +391,6 @@ button:hover {
 .projects-content img {
     max-width: 90vw;
     height: auto; 
-    margin-bottom: 20px;
 }
 
 
